@@ -1,0 +1,200 @@
+body {
+    background-color: #D0Dff4;
+}
+#header ul {
+    width: 75%;
+    max-width: 486px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0%;
+    background-color: #698DBF;
+    box-shadow: 5px 5px 8px #888888;
+    border-radius: 5px;
+  }
+
+
+/* CSS */
+.button-57 {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #18181a;
+  color: #18181a;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 18px 18px 17px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #698DBF;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-57 span:first-child {
+  position: relative;
+  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 10;
+}
+
+.button-57 span:last-child {
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(225%) translateX(-50%);
+  height: 14px;
+  line-height: 13px;
+}
+
+.button-57:after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #32363b;
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+}
+
+.button-57:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-57:hover span:last-child {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 1;
+  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+    
+  #header li {
+    height: 40px;
+    width: 75px;
+    float: left;
+    text-align: center;
+
+    margin-right: 15px;
+    padding-top: 20px;
+    font-size: larger;
+  }
+    
+  #header li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #32363b;
+  }
+  
+  #footer p{
+   color: rgb(189, 188, 188);
+   font-size: small;
+   text-align: center;
+   margin-top: 50px;
+  }
+
+  .main{
+    width: 60%;
+    border: solid 2px black;
+    font-size: x-large;
+    text-align: center;
+    margin-left: 5%;
+    box-shadow: 5px 5px 8px #888888;
+  }
+
+  .news{
+    border: solid 2px black;
+    font-size: x-large;
+    text-align: center;
+    margin-left: 2%;
+    box-shadow: 5px 5px 8px #888888;
+  }
+
+  
+
+  #sideStat {
+    float: right;
+    width: 25%;
+    text-align: center;
+    border: solid 2px black;
+    margin-right: 5%;
+    box-shadow: 5px 5px 8px #888888;
+  }
+
+  #headline h1{
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+
+  #articleText{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  table{
+    width: 90%;
+    margin: 2% 5% 2% 5%;
+    box-shadow: 5px 5px 8px #888888;
+  }
+  img{
+    box-shadow: 5px 5px 8px #888888;
+  }
+
+  
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: small;
+  }
+  a{
+    text-decoration: none;
+    color: #32363b;
+    font-weight: bold; 
+  }
+
+  .coverImage {
+    width: 90%;
+    margin-top: 5px;
+  }
+
+  .aboutLeft{
+    width: 45%;
+    text-align: center;
+  }
+
+  .about{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  
+
+  .aboutRight{
+    width: 45%;
+    float: right;
+    text-align: center;
+  }
+
+  .red{
+    background-color: rgb(255, 145, 145);
+  }
+
+  .green{
+    background-color: rgb(78, 143, 78);
+  }
+
+  #sideStat img{
+    width: 95%;
+  }
